@@ -1,0 +1,60 @@
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="//fonts.googleapis.com/css?family=Playfair+Display"
+/>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Firebase Meetup</title>
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div id="app">
+    <section id="event-details-container">
+      <h1>If given one hour, how many eggs can you eat?</h1>
+      <!-- ADD THE RSVP BUTTON HERE -->
+    </section>
+
+    <center>
+      <div class="container">
+        <form id="eggs">
+          <p class="egg-count">
+            <input
+              type="text"
+              name="egg-count"
+              id="egg-count"
+              placeholder="Egg Count"
+              required
+            />
+          </p>
+
+          <p class="submit-button">
+            <button type="submit">I'm Confident In This Estimate</button>
+          </p>
+        </form>
+      </div>
+    </center>
+    <hr />
+
+    <section id="firebaseui-auth-container"></section>
+
+    <section id="description-container"></section>
+
+    <section id="guestbook-container"></section>
+  </div>
+</body>
